@@ -1,0 +1,80 @@
+@tailwind base;
+
+@tailwind components;
+
+.forminput {
+  @apply block w-full px-3 py-1.5 text-base font-normal text-gray-700
+  bg-white bg-clip-padding border border-solid border-gray-300 rounded
+  transition ease-in-out m-0
+  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none;
+}
+.formsubmit {
+  @apply w-full px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight
+  uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150
+  ease-in-out;
+}
+.container {
+  @apply max-w-screen-2xl mx-auto;
+}
+.link {
+  @apply text-lime-600 hover:underline;
+}
+.sidebarmenuparents {
+  @apply flex flex-row items-center justify-between hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-blue-500;
+}
+.btnmodal {
+  @apply bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded;
+}
+
+.ant-btn-primary {
+  @apply bg-blue-500;
+}
+
+.ant-picker-input input {
+  @apply text-center;
+}
+
+input::-webkit-inner-spin-button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.ant-select-selector {
+  height: 38px;
+}
+
+/* Css style for the built in style button */
+
+.ant-picker-footer {
+  display: none;
+}
+
+.anticon-close {
+  display: flex;
+  margin-top: 6.5px;
+}
+
+.anticon-close-circle {
+  display: flex;
+}
+
+.react-datepicker__close-icon {
+  padding-right: 10px;
+}
+
+.react-datepicker__close-icon::after {
+  height: 15px;
+  width: 17px;
+  padding-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+  .react-datepicker__close-icon {
+    padding-right: 3px;
+  }
+}
+
+/* ----------------------------------------------- */
+
+@tailwind utilities;

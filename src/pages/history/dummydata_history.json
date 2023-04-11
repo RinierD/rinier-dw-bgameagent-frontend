@@ -1,0 +1,77 @@
+{
+  "winlossData": [
+    {
+      "id": "1",
+      "accountName": "SuperAccnt01",
+      "nickName": "testnick01",
+      "winloss": 1000000,
+      "totalRolling": 3000000,
+      "tip": 100000,
+      "gameShare": 45,
+      "gameRolling": 1.5,
+      "shareWinloss": 500000,
+      "rollingCommission": 15000,
+      "profit": 515000,
+      "subData": [
+        {
+          "id": "11",
+          "accountName": "subAccnt01",
+          "nickName": "testnick02",
+          "winloss": 1000000,
+          "totalRolling": 3000000,
+          "tip": 100000,
+          "gameShare": 42,
+          "gameRolling": 1.2,
+          "shareWinloss": 500000,
+          "rollingCommission": 15000,
+          "profit": 515000
+        },
+        {
+          "id": "12",
+          "accountName": "subAccnt02",
+          "nickName": "testnick03",
+          "winloss": 2000000,
+          "totalRolling": 5000000,
+          "tip": 100000,
+          "gameShare": 43,
+          "gameRolling": 1.3,
+          "shareWinloss": 500000,
+          "rollingCommission": 15000,
+          "profit": 515000
+        },
+        {
+          "id": "13",
+          "accountName": "subAccnt03",
+          "nickName": "testnick04",
+          "winloss": -1000000,
+          "totalRolling": 7000000,
+          "tip": 100000,
+          "gameShare": 45,
+          "gameRolling": 1.5,
+          "shareWinloss": 500000,
+          "rollingCommission": 15000,
+          "profit": 515000
+        }
+      ]
+    }
+  ],
+  "gameHistoryData": [
+    {
+      "id": "1",
+      "accountName": "test01",
+      "nickName": "testnick01",
+      "started_at": "2023-02-16 18:54:34",
+      "shoeNum": "shoe12312343",
+      "junket_code": "RP",
+      "game_type": "S",
+      "table_num": "RP001",
+      "order_num": "O12341234",
+      "bet_type": "P",
+      "bet_amount": 1000000,
+      "game_result": "1",
+      "winloss": "1",
+      "settlement_status": "1",
+      "settled_at": "2023-02-16 18:54:34"
+    }
+  ]
+}

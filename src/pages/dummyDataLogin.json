@@ -1,0 +1,8 @@
+{
+  "adminLogin": {
+    "grantedAuth": "ADMIN"
+  },
+  "userLogin": {
+    "grantedAuth": "USER"
+  }
+}
